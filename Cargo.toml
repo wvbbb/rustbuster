@@ -1,0 +1,38 @@
+[package]
+name = "rustbuster"
+version = "0.1.0"
+edition = "2021"
+authors = ["wvbb"]
+description = "A fast, professional web enumeration tool written in Rust"
+repository = "https://github.com/wvbb/rustbuster"
+license = "MIT"
+keywords = ["security", "pentesting", "enumeration", "web", "cybersecurity"]
+categories = ["command-line-utilities", "network-programming"]
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+tokio = { version = "1.40", features = ["full"] }
+reqwest = { version = "0.12", features = ["json"] }
+colored = "2.1"
+indicatif = "0.17"
+futures = "0.3"
+trust-dns-resolver = "0.23"
+url = "2.5"
+anyhow = "1.0"
+thiserror = "1.0"
+regex = "1.10"
+uuid = { version = "1.10", features = ["v4"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+sha2 = "0.10"
+base64 = "0.22"
+toml = "0.8"
+dirs = "5.0"
+ansi_term = "0.12"
+terminal_size = "0.3"
+ratatui = "0.28"
+crossterm = "0.28"
+
+[dev-dependencies]
+tempfile = "3.8"
