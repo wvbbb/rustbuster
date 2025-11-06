@@ -11,7 +11,7 @@ fn get_after_help() -> String {
 
 #[derive(Parser, Debug)]
 #[command(name = "rustbuster")]
-#[command(author = "wvbb")]
+#[command(author = "wvbbb")]
 #[command(version = "0.1.0")]
 #[command(about = "🦀 Rustbuster - A fast, professional web enumeration tool written in Rust", long_about = None)]
 #[command(subcommand_help_heading = "MODES")]

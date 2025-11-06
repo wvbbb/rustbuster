@@ -39,7 +39,7 @@
 ### From Source
 
 ```bash
-git clone https://github.com/wvbb/rustbuster
+git clone https://github.com/wvbbb/rustbuster
 cd rustbuster
 cargo build --release
 ```
